@@ -28,6 +28,35 @@
   color: #61dafb;
 }
 
+.custom-bg {
+  background-image: url('./assets/bg-custom.jpg');
+  background-attachment: fixed;
+  background-size: cover; /* Opsional: Menyesuaikan ukuran gambar */
+  background-repeat: no-repeat; /* Opsional: Menghindari pengulangan gambar */
+  /* Tambahan gaya CSS sesuai kebutuhan Anda */
+  
+}
+
+.whats-app {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 15px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +64,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.bg-hero{
+  background-color: #279EFF
+}
+.bg-black{
+  background-color:#0000
 }
