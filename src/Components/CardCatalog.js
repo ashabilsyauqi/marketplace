@@ -7,7 +7,7 @@ export default function CardCatalog({ data }) {
       <p className="card-text">{data.desc}</p>
 
       <div className='d-flex justify-content-between'>
-        <button className='btn btn-primary'>Pesan</button>
+        <button className='btn btn-primary' onClick={alert("masih di Develop ✌️😁")}>Pesan</button>
 
         <p className=" text-dark">
         Rp {new Intl.NumberFormat("id-ID", {
